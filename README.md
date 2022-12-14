@@ -10,7 +10,7 @@ Is a simple web app develop with python in Flask framework that create a WhatsAp
 
 ```Bash
 python -m venv venv # to create
-env\Scripts\activate # activating
+venv\Scripts\activate # activating
 ```
 
 * Then install all modules necesary from pip with:
