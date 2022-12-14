@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Concatenar valores</title>
+  </head>
+  <body>
+    <form action="/concat" method="post">
+      <p>Ingrese el numero celular del procesado</p>
+      Celular: <input type="text" name="val1"><br>
+      <p>Ingrese el mensaje con el link de la audiencia</p>
+      Mensaje: <input type="text" name="val2"><br>
+      <input type="submit" value="Concatenar">
+    </form>
+    {% if result %}
+      <a href="{{ result }}">Enviar por WhatsApp</a>
+    {% endif %}
+  </body>
+</html>
